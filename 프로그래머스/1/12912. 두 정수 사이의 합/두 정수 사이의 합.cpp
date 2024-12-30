@@ -14,27 +14,5 @@ long long solution(int a, int b) {
         answer += i;
     }
     
-//     if (a != b)
-//     {
-//         if (a > b)
-//         {
-//             for (int i = b; i <= a; i++)
-//             {
-//                 answer += i;
-//             }
-//         }
-//         else
-//         {
-//             for (int i = a; i <= b; i++)
-//             {
-//                 answer += i;
-//             }
-//         }
-        
-//     }
-//     else
-//         return a;
-    
-    
     return answer;
 }
