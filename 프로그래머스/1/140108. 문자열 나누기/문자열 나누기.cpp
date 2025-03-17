@@ -20,11 +20,7 @@ int solution(string s) {
             x = s[i];
         }
         
-        if (s[i] == x)
-            XCount++;
-            
-        else
-            NotXCount++;
+        (s[i] == x) ? XCount++ : NotXCount++;
     }
     
     return answer;
